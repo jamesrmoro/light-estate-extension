@@ -89,7 +89,14 @@ This extension requires a backend and a PWA (Progressive Web App) for full funct
 
 ## 🤖 Arduino/ESP32 Integration
 
-Want to connect a real building model with LEDs and an LCD display?  
+This project supports connecting a **physical building model** with an addressable LED strip and an LCD display.  
+The example below uses a **WS2812 addressable LED strip (NeoPixel)** and a 16x2 I2C LCD.
+
+> ℹ️ **Hardware used in this example:**  
+> - ESP32  
+> - WS2812 addressable LED strip (49 LEDs)  
+> - LCD 16x2 I2C display (address `0x27` or `0x3F`)
+
 Use the code below on your **ESP32** to sync your LED strip and LCD with apartment sales from the Light Estate backend!
 
 <details>
@@ -104,7 +111,7 @@ Use the code below on your **ESP32** to sync your LED strip and LCD with apartme
 #include <LiquidCrystal_I2C.h>
 
 #define LED_PIN    18
-#define NUM_LEDS   21
+#define NUM_LEDS   49
 
 const char* ssid = "YOUR_WIFI_SSID";
 const char* password = "YOUR_WIFI_PASSWORD";
