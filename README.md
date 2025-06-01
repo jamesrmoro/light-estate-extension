@@ -56,3 +56,17 @@ cd light-estate-extension
 
 4. **Done!**  
    The extension is now ready to use.
+
+---
+
+> ⚠️ **Important:**  
+> You must **replace all occurrences** of  
+> - `https://lightestate-backend.vercel.app/api/webhook`  
+> - `https://lightestate-backend.vercel.app/api/send-email`  
+> (and any other backend URLs in the source code)  
+> with the URL of **your own deployed backend API**!
+>
+> These URLs are found wherever API calls are made in the source code.  
+> Make sure your backend is running and accessible for notifications and email delivery to work.
+
+---
