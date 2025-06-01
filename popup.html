@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Light Estate</title>
+    <script src="assets/js/supabase-js.js"></script>
+    <script src="assets/js/popup-login.js"></script>
+</head>
+<body>
+    <div id="loader-overlay">
+        <div class="loader-spinner"></div>
+        <span>Loading</span>
+    </div>
+    <button id="logoutBtn">
+        <img src="./assets/icons/icon-logout.svg" alt="Logout" width="30px">
+    </button>
+    <h1 id="projectTitle">
+        <img src="./assets/icons/icon-build-2.svg" alt="Light Estate" width="30px"> Light Estate
+    </h1>
+    <div id="building-wrapper">
+        <div id="building" class="grid"></div>
+    </div>
+    <div class="nuvem-wrapper">
+        <div class="nuvem nuvem1"></div>
+        <div class="nuvem tipob nuvem2"></div>
+        <div class="nuvem nuvem3"></div>
+        <div class="nuvem tipob nuvem4"></div>
+        <div class="nuvem nuvem5"></div>
+        <div class="nuvem tipob nuvem6"></div>
+        <div class="nuvem nuvem7"></div>
+        <div class="nuvem tipob nuvem8"></div>
+        <div class="nuvem nuvem9"></div>
+        <div class="nuvem tipob nuvem10"></div>
+        <div class="street">
+            <div class="arvore a9">
+                <div class="folha arvore-2 f1"></div>
+                <div class="folha arvore-2 f2"></div>
+                <div class="folha arvore-2 f3"></div>
+                <div class="folha arvore-2 f4"></div>
+            </div>
+        </div>
+        <div style="position: relative;">
+            <button id="resumoBtn">
+                <div class="colors" style="position: absolute; bottom: -15px;">
+                    <div class="color color-1"></div>
+                    <div class="color color-2"></div>
+                    <div class="color color-3"></div>
+                    <div class="color color-4"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div id="confirmModal" class="modal hidden">
+        <div class="modal-content">
+            <p id="modalMessage">Confirm?</p>
+            <div class="modal-actions">
+                <button id="confirmYes">Confirm</button>
+                <button id="confirmNo">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="statusToast" class="toast hidden">Sending...</div>
+
+    <div id="login-modal">
+        <form class="login-box" id="loginForm" autocomplete="on" style="background-color: #000; border: 1px solid #fff">
+            <img style="width:150px" src="./assets/images/logo.png" alt="">
+            <h2 style="color:#fff">Sign in</h2>
+            <div class="login-field">
+                <label for="loginEmail" style="color:#fff">Email</label>
+                <input id="loginEmail" type="email" required autocomplete="email" placeholder="example@email.com"/>
+            </div>
+            <div class="login-field">
+                <label for="loginPassword" style="color:#fff">Password</label>
+                <input id="loginPassword" type="password" required autocomplete="current-password" placeholder="Your password" />
+            </div>
+            <div class="login-actions">
+                <button type="submit" id="loginBtn">Log in</button>
+            </div>
+            <div class="error-message" id="loginError" style="display:none"></div>
+        </form>
+        <div class="colors">
+            <div class="color color-1"></div>
+            <div class="color color-2"></div>
+            <div class="color color-3"></div>
+            <div class="color color-4"></div>
+        </div>
+    </div>
+
+    <script src="assets/music/confetti.js"></script>
+    <script src="assets/js/popup.js"></script>
+</body>
+</html>

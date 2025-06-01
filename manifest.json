@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Light Estate",
+  "version": "1.0",
+  "description": "Extension that lists properties and sends emails with Postmark on click",
+  "permissions": ["scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/images/icon.png"
+    },
+    "default_title": "LightEstate"
+  }
+
+}
