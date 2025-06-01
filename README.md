@@ -7,7 +7,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Supabase](https://img.shields.io/badge/backed%20by-Supabase-3ecf8e.svg)](https://supabase.com/)
-[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/)
 
 ---
 
@@ -25,7 +24,11 @@
 
 ## 🚀 Demo
 
-[![Watch the demo](https://img.youtube.com/vi/Cc812fVl26I/maxresdefault.jpg)](https://youtu.be/Cc812fVl26I)
+[![Watch the demo on YouTube](https://img.youtube.com/vi/Cc812fVl26I/maxresdefault.jpg)](https://youtu.be/Cc812fVl26I "Watch the full demo on YouTube")
+
+> ▶️ **Click the image above to watch the full video demo on YouTube!**
+>
+> _See the extension in action, real-time sales, notifications, and project management in under 5 minutes._
 
 
 ---
