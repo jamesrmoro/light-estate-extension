@@ -7,6 +7,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Supabase](https://img.shields.io/badge/backed%20by-Supabase-3ecf8e.svg)](https://supabase.com/)
+[![Deploy on Vercel](https://vercel.com/button)](https://vercel.com/)
 
 ---
 
@@ -51,7 +52,7 @@ cd light-estate-extension
    1. Go to [`chrome://extensions/`](chrome://extensions/)
    2. Enable **Developer mode** (top right corner)
    3. Click **Load unpacked**
-   4. Select the project folder (`light-estate`)
+   4. Select the project folder (`light-estate-extension`)
 
 4. **Done!**  
    The extension is now ready to use.
