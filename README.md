@@ -26,7 +26,8 @@
 
 [![Watch the demo on YouTube](https://img.youtube.com/vi/Cc812fVl26I/maxresdefault.jpg)](https://youtu.be/Cc812fVl26I "Watch the full demo on YouTube")
 
-> ▶️ **Click the image above to watch the full video demo on YouTube!**
+> ▶️ **Click the image above to watch the full demo on YouTube!**  
+> [https://youtu.be/Cc812fVl26I](https://youtu.be/Cc812fVl26I)
 >
 > _See the extension in action, real-time sales, notifications, and project management in under 5 minutes._
 
@@ -39,7 +40,7 @@
 
 ```bash
 git clone https://github.com/jamesrmoro/light-estate-extension.git
-cd light-estate
+cd light-estate-extension
 ```
 
 2. **Configure your Supabase credentials**  
