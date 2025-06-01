@@ -70,3 +70,17 @@ cd light-estate-extension
 > Make sure your backend is running and accessible for notifications and email delivery to work.
 
 ---
+
+## 🔗 Related Repositories
+
+This extension requires a backend and a PWA (Progressive Web App) for full functionality:
+
+- **Backend API (notifications, email, integration):**  
+  [jamesrmoro/lightestate-backend](https://github.com/jamesrmoro/lightestate-backend)
+
+- **PWA for Push Notifications (optional, recommended):**  
+  [jamesrmoro/lightestate-pwa](https://github.com/jamesrmoro/lightestate-pwa)
+
+> Make sure to deploy and configure both before using the Chrome extension.
+
+---
