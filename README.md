@@ -24,16 +24,19 @@
 
 ## 🚀 Demo
 
-![Demo gif](./assets/images/light-estate-demo.gif)
+[![Watch the demo](https://img.youtube.com/vi/Cc812fVl26I/maxresdefault.jpg)](https://youtu.be/Cc812fVl26I)
+
 
 ---
 
 ## 🛠️ Setup
 
-```bash
 1. **Clone the repository**
-git clone https://github.com/jamesrmoro/light-estate.git
+
+```bash
+git clone https://github.com/jamesrmoro/light-estate-extension.git
 cd light-estate
+```
 
 2. **Configure your Supabase credentials**  
    Open the file `popup-login.js` (or wherever indicated in the code) and insert your Supabase **URL** and **Anon Key**.
