@@ -2,7 +2,8 @@
 
 **Smart Real Estate Dashboard – Instantly track apartment sales, notify your team, and manage all projects in the cloud.**
 
-![Light Estate UI](./assets/images/demo-light-estate.png)
+![Light Estate UI](https://raw.githubusercontent.com/jamesrmoro/light-estate-extension/main/assets/images/cover.png)
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Supabase](https://img.shields.io/badge/backed%20by-Supabase-3ecf8e.svg)](https://supabase.com/)
